@@ -6,7 +6,7 @@ const config = {
   mode: 'development',
   entry: './script/src/index.js',
   output: {
-    path: path.resolve(__dirname, 'script', 'build'),
+    path: path.resolve(__dirname, 'build'),
     filename: 'bundle.js'
   },
   module: {
