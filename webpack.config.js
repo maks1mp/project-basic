@@ -26,6 +26,8 @@ const config = {
     new HtmlWebpackPlugin({
       template: './index.html',
       filename: 'index.html',
+      title: 'My project',
+      style: path.resolve(__dirname),
       hash: true
     })
   ]
